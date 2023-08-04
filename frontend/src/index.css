@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family:'Montserrat', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+body {
+  padding:0px 10px;
+  font-family:'Montserrat', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #2E3840;
+  color: #FFF;
+}
+
+/* Navbar */
+.nav-link-item{
+  @apply text-[#ABFF32] hover:underline underline-offset-8 duration-500 ;
+}
